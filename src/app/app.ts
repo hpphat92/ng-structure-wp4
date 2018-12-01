@@ -6,7 +6,6 @@ import {map, window} from "rxjs/operators";
 
 // Import bootstrap module.
 import * as jquery from 'jquery';
-window['jQuery'] = window['$'] = jquery;
 import 'bootstrap/dist/js/bootstrap';
 import 'admin-lte/dist/js/adminlte';
 import {ajax, AjaxResponse} from "rxjs/ajax";
